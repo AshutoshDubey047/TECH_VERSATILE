@@ -1,1 +1,23 @@
-
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Career Counsellor</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>AI Career Counsellor</h1>
+    <input type="text" id="subjects" placeholder="Enter subjects (e.g. PCM)">
+    <input type="text" id="score" placeholder="Enter score or 'awaiting'">
+    <select id="language">
+<option value="English">English</option>
+<option value="Hindi">Hindi</option>
+<option value="Tamil">Tamil</option>
+    </select>
+    <button onclick="getRecommendations()">Get Career Suggestions</button>
+    <div id="results"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
